@@ -6,10 +6,14 @@ const tileUrl = 'https://{s}.tile.openstreetmap.org./{z}/{x}/{y}.png';
 
 const tiles = L.tileLayer(tileUrl,{attribution});
 
-
+var issIcon = L.icon({
+    iconUrl: 'International_Space_Station.svg.png',
+    iconSize: [50, 32],
+    iconAnchor: [25, 16]
+});
 
 var issMap = L.map('mapid');
-const marker = L.marker([0,0]).addTo(issMap);
+const marker = L.marker([0,0], {icon: issIcon}).addTo(issMap);
 
 
 tiles.addTo(issMap);

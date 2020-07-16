@@ -1,32 +1,7 @@
-body{
-    position: relative;
-    padding: 0%;
-    align-items: center;
-    background-image: url(space.jpg);
-    background-repeat: no-repeat;
-}
-h1{
-    margin-bottom: 20px;
-    background-color: white;
-    text-align: center;
-}
+
 #mapid {
     border: 2px solid black;
     position: relative;
-    height: 200px;
-    width: 400px;
-}
-
-table{
-    text-align: center;
-    background-color: white;
-    width: 200px;
-    height: 200px;
-    position: absolute;
-    left: 500px;
-    top: 55px;
-    border: black solid;
-}
-td{
-    border: 2px solid black;
+    height: 400px;
+    max-width: auto;
 }
